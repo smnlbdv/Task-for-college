@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(44, 44, 238);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="search"] {
+    padding: 2px 6px;
+    border: none;
+    font: inherit; color: inherit;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.section__card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 371px;
+    height: 550px;
+    margin: 15px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.164);
+}
+
+.block__image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.info__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.block__info {
+    width: 100%;
+    height: 60%;
+}
+
+.image {
+    height: 80%;
+}
+
+.block__star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    height: 22px;
+}
+
+.block__star img {
+    width: 22px;
+}
+
+.info__true {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: 22px;
+}
+
+.info__true img {
+    height: 22px;
+}
+
+.info__true_text {
+    font-size: 20px;
+}
+
+.info__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.price__sale {
+    font-size: 25px;
+    color: red;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+.block__image::after {
+    content: "По акции";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 0 12px;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(240, 172, 27);
+}
+
+.like__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 0 12px;
+    width: 29px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.info__counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.counter__block {
+    display: flex;
+}
+
+.label1 {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    border: 1px solid  rgba(132, 134, 136, 0.226);
+}
+
+.label1::after {
+    content: "-";
+}
+
+.label2::after {
+    content: "+";
+}
+
+.label2 {
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    border: 1px solid  rgba(132, 134, 136, 0.226);
+}
+
+.info__button {
+    width: 143px;
+    height: 40px;
+    background-color: rgb(219, 42, 42);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.counter__block span {
+    width: 10px;
+}
+
+.counter_div {
+    display: flex;
+    width: 77px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(132, 134, 136, 0.226);
+}

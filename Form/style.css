@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(44, 44, 238);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="search"] {
+    padding: 2px 6px;
+    border: none;
+    font: inherit; color: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.select__input {
+    width: 103px;
+    border-radius: 8px;
+    box-shadow: inset 1px 1px 3px -1px rgba(0, 0, 0, 0.253);
+    background-color: #5a585818;
+    text-align: center;
+    border: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.section__form {
+    width: 580px;
+    margin: 15px 20px;
+}
+
+.form__title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form__mini-title {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.block__form_input {
+    margin-bottom: 10px;
+    max-width: 350px;
+}
+
+.radiobutton__group_inner {
+    border: 1px dashed black;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+
+.title__input {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form__input {
+    width: 100%;
+    height: 15px;
+    border-radius: 8px;
+    box-shadow: inset 1px 1px 3px -1px rgba(0, 0, 0, 0.253);
+    background-color: #5a585818;
+}
+
+.bottom__title {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.radiobutton__group {
+    max-width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: red;
+}
+
+.group__text {
+    font-size: 12px;
+}
+
+.group__text input {
+    margin-right: 5px;
+}
+
+.block__code {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+.code__title {
+    font-size: 12px;
+}
+
+.code_form {
+    width: 100px;
+}
+
+.code__label {
+    font-size: 12px;
+}
+
+.check__title {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.check__title input {
+    margin-right: 5px;
+}
+
+.form__button {
+    margin: 0 auto;
+}
+
+.button__block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form__button {
+    border: none;
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to top, #0f960f, #15e215);
+}

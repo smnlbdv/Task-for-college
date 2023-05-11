@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Форма</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="wrapper">
+            <section class="section__form">
+                <div class="container">
+                    <form class="form" action="">
+                        <p class="form__title">Анкета регистрации участников программы "пРИГЛАшаем"</p>
+                        <p class="form__mini-title">После регистрации Вы сможете обменивать накопленные бонусы на скидки при совершении покупок в аптеках сети "Ригля"</p>
+                        <div class="block__form_input">
+                            <p class="title__input">Введите штрих-код вашей карты<span>*</span>:</p>
+                            <input class="form__input" type="text">
+                        </div>
+                        <div class="block__form_input">
+                            <p class="title__input">Имя<span>*</span>:</p>
+                            <input class="form__input" type="text">
+                        </div>
+                        <div class="block__form_input">
+                            <p class="title__input">Отчество:</p>
+                            <input class="form__input" type="text">
+                        </div>
+                        <div class="block__form_input">
+                            <p class="title__input">Дата рождения<span>*</span>:</p>
+                            <input class="form__input" type="text">
+                        </div>
+                        <div class="block__form_input">
+                            <p class="title__input">Пол<span>*</span>:</p>
+                            <select class="select__input">
+                                <option name="Мужской" id="">Мужской</оption>
+                                <option name="Женский" id="">Женский</оption>
+                            </select>
+                        </div>
+                        <div class="block__form_input">
+                            <p class="title__input">Мобильный телефон<span>*</span>:</p>
+                            <input class="form__input" type="text">
+                        </div>
+                        <div class="block__form_input">
+                            <p class="title__input">E-mail:</p>
+                            <input class="form__input" type="text">
+                        </div>
+                        <p class="bottom__title"><span>*</span>Поля, обязательные для заполнения</p>
+                        <div class="radiobutton__group">
+                            <div class="radiobutton__group_inner">
+                                <div  class="group__text">
+                                    <input type="radio" value="html5" checked name="tech"/>
+                                    Я желаю получать информацию об акциях программы, скидках и распрадажах
+                                </div>
+                                <div class="group__text">
+                                    <input type="radio" value="net" name="tech"/>
+                                    Я не желаю получать информацию об акциях программы
+                                </div>     
+                            </div>
+                        </divv>
+                        <div class="block__code">
+                            <p class="code__title">Код подтверждения*:</p>
+                            <input class="form__input code_form" type="text" class="code__input">
+                            <label class="code__label" for=""><a href="">Выслать SMS еще раз</a></label>
+                        </div>
+                        <p class="check__title"><input type="checkbox" checked>Я согласен на обработку персональных данных и ознакомлен с <a href="">правилами программы</a></p>
+                        <div class="button__block">
+                            <button class="form__button">Проверить</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
